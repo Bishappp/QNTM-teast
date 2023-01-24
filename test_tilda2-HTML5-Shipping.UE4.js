@@ -1154,7 +1154,7 @@ $(document).ready(function() {
 
 		// ----------------------------------------
 		// MORE JS
-		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('test_tilda2-HTML5-Shipping.data.js'));
+		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/Bishappp/QNTM-teast/fc234b16512e6395c60075f4f1e6c37300d92d23/test_tilda2-HTML5-Shipping.data.js'));
 		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('Utility.js')).then(addScriptToDom);
 		var dataDownload =
 /* // The following code would download and store the .data file as a Blob, which should be more efficient than loading an ArrayBuffer. However that seems to be buggy, so avoid it for now.
